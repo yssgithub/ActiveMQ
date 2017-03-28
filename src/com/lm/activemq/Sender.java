@@ -11,6 +11,11 @@ import javax.jms.TextMessage;
 import org.apache.activemq.ActiveMQConnection;
 import org.apache.activemq.ActiveMQConnectionFactory;
 
+/**
+ * 消息发送者
+ * @author youss
+ *
+ */
 public class Sender {
 	private static final int SEND_NUMBER = 500000;  
 	  

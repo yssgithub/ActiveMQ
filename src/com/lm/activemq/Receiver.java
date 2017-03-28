@@ -10,6 +10,11 @@ import javax.jms.TextMessage;
 import org.apache.activemq.ActiveMQConnection;
 import org.apache.activemq.ActiveMQConnectionFactory;
 
+/**
+ * 消息接收者
+ * @author youss
+ *
+ */
 public class Receiver {
 	public static void main(String[] args) {  
         // ConnectionFactory ：连接工厂，JMS 用它创建连接  
